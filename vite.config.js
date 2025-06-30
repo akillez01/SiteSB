@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/', // Para domínio próprio. Se for GitHub Pages, troque para '/NOME_DO_REPO/'
+  base: '/SiteSB/', // Caminho para GitHub Pages: use o nome do repositório
   plugins: [react()],
   server: {
     port: 3000,
