@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
+// vite.config.js
+
 import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/', // Para domínio próprio. Se for GitHub Pages, troque para '/NOME_DO_REPO/'
   plugins: [react()],
   server: {
     port: 3000,
@@ -9,6 +12,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: true,
+    assetsDir: 'assets'
   }
 })

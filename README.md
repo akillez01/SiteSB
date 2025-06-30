@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  SB Tech & Support
 
 ## 👋 Quem somos
@@ -45,3 +46,6 @@ Somos uma empresa focada em atender nossos clientes com excelência, dedicando-n
 ---
 
 **"Procure sempre evoluir e compartilhando conhecimento."** ✨
+=======
+# SiteSB
+>>>>>>> 56c5ac01c1512ce7ab0b42b22e591ce36b72cec5
