@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   base: '/SiteSB/', // Caminho para GitHub Pages: use o nome do repositório
-  plugins: [react()],
+ plugins: [react()],
   server: {
     port: 3000,
     open: true
